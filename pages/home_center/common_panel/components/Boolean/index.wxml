@@ -1,0 +1,13 @@
+<!--pages/home_center/common_panel/components/Boolean/index.wxml-->
+<view class="boolean-container">
+  <view class="boolean-name">{{dpName}}</view>
+  <van-switch checked="{{isChecked}}" bind:change="onChange" />
+</view>
+
+<view class="page-body">
+  <view class="btn-area" id="buttonContainer">
+    <view class="button-sp-area">
+      <button type="primary" plain="true">电量统计</button>
+    </view>
+  </view>
+</view>
